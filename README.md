@@ -10,6 +10,8 @@ Documantation
 yourViewPager.setCurrentItem(int position, int duration); 
 `
 
-##TESTED
-  *Tested on Galaxy Nexus with 100 Elements.
-  *Try this.
+## Some Information
+  * Tested on Galaxy Nexus
+  * Tested with 100 Elements
+  * 100% support Android 4.0+
+  * Can't garrant with memory issue

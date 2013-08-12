@@ -13,9 +13,6 @@ Copy 'src/OViewPager.java' then add it to your package. And see some code below
               android:id="@+id/pager"
               android:layout_width="match_parent"
               android:layout_height="match_parent" />
-
-
-
 ```
 
 ``` java

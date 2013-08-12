@@ -8,13 +8,10 @@ Documantation
 
 ``` java
 int position = 15;
-
 int duration = 5000;
 
 ViewPager mPager = (ViewPager) findViewById(R.id.pager);
-
 mPager.setAdapter(mAdapter)
-
 mPager.setCurrentItem(position, duration);
 ```
 

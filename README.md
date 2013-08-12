@@ -7,7 +7,15 @@ Documantation
 =============
 
 `
-yourViewPager.setCurrentItem(int position, int duration); 
+int position = 15;
+
+int duration = 5000;
+
+ViewPager mPager = (ViewPager) findViewById(R.id.pager);
+
+mPager.setAdapter(mAdapter)
+
+mPager.setCurrentItem(position, duration);
 `
 
 ## Some Information
@@ -15,3 +23,5 @@ yourViewPager.setCurrentItem(int position, int duration);
   * Tested with 100 Elements
   * 100% support Android 4.0+
   * Can't garrant with memory issue
+
+'Thanks!'

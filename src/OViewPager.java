@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package ozik.client.mover.comeback.ui;
+package ozik.viewpager.test;
 
 import android.content.Context;
 import android.content.res.Resources;

@@ -62,7 +62,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-import ozik.client.mover.comeback.Offten;
 
 /**
  * Layout manager that allows the user to flip left and right
@@ -90,7 +89,7 @@ import ozik.client.mover.comeback.Offten;
  * {@sample development/samples/Support13Demos/src/com/example/android/supportv13/app/ActionBarTabsPager.java
  *      complete}
  */
-public class ViewPager extends ViewGroup {
+public class OViewPager extends ViewGroup {
     private static final String TAG = "ViewPager";
     private static final boolean DEBUG = false;
 
@@ -349,12 +348,12 @@ public class ViewPager extends ViewGroup {
      */
     interface Decor {}
 
-    public ViewPager(Context context) {
+    public OViewPager(Context context) {
         super(context);
         initViewPager();
     }
 
-    public ViewPager(Context context, AttributeSet attrs) {
+    public OViewPager(Context context, AttributeSet attrs) {
         super(context, attrs);
         initViewPager();
     }

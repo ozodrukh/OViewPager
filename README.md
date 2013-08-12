@@ -3,6 +3,12 @@ OViewPager
 
 This is ViewPager with handling duration page changing
 
+i modifed stock ViewPager class, and added 2 methods  
+```java 
+setCurrentItem(int position, int duration) 
+smoothScrollToWithDuration(int x, int y, int duration)
+```
+
 Documantation
 =============
 

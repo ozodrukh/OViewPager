@@ -24,4 +24,4 @@ mPager.setCurrentItem(position, duration);
   * 100% support Android 4.0+
   * Can't garrant with memory issue
 
-'Thanks!'
+##Thanks!

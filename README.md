@@ -6,11 +6,15 @@ This is ViewPager with handling duration page changing
 Documantation
 =============
 
+Copy 'src/OViewPager.java' then add it to your package. And see some code below
+
 ```xml
 <yourpackage.ui.OViewPager xmlns:android="http://schemas.android.com/apk/res/android"
               android:id="@+id/pager"
               android:layout_width="match_parent"
               android:layout_height="match_parent" />
+
+
 
 ```
 
